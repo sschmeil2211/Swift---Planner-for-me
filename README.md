@@ -15,19 +15,19 @@ Planner For Me is a task management application that allows users to add, mark a
 Explore the application's functionalities by watching the demo video here.
 
 ## Scripts Explanation
-### Models
+### ***Models***
 * ToDoListItem: Defines the structure for a to-do list item, including its properties and methods.
 
 * User: Defines the structure for a user, encompassing user-related information.
 
-### Other
+### ***Other***
 * Extensions: Contains an extension to convert an object conforming to the Encodable protocol into a dictionary.
 
 * GoogleService-Info.plist: Configuration file containing Firebase settings for the project.
 
 * planner_for_meApp: Main application file initializing Firebase and defining the app's entry point.
 
-### ViewModels
+### ***ViewModels***
 * HomeViewViewModel: ViewModel for managing the HomeView, checking user authentication state.
 
 * NewItemViewViewModel: ViewModel for managing the NewItemView, handling the creation and saving of new to-do items.
@@ -42,7 +42,7 @@ Explore the application's functionalities by watching the demo video here.
 
 * ToDoListViewViewModel: ViewModel for managing the ToDoListView, handling the deletion of to-do items.
 
-### Views
+### ***Views***
 * ButtonView: Reusable SwiftUI component for creating styled buttons.
 
 * HeaderView: Reusable SwiftUI component for creating a header with a title, subtitle, and background color.
